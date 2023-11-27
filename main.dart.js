@@ -27237,7 +27237,7 @@ qU(a,b){return A.aW9(a,b)},
 aW9(a,b){var s=0,r=A.P(t.H),q=1,p,o,n,m,l,k,j,i
 var $async$qU=A.Q(function(c,d){if(c===1){p=d
 s=q}while(true)switch(s){case 0:q=3
-m=A.d_("http://127.0.0.1:8000/accounts/update/",0,null)
+m=A.d_("https://boolean-boos.onrender.com/accounts/update/",0,null)
 l=t.N
 k=A.av(["Content-Type","application/json"],l,l)
 s=6
@@ -27384,7 +27384,7 @@ apL:function apL(){},
 Z7(a,b){var s=0,r=A.P(t.z),q,p
 var $async$Z7=A.Q(function(c,d){if(c===1)return A.M(d,r)
 while(true)switch(s){case 0:s=2
-return A.R(A.o0(A.d_("http://127.0.0.1:8000/items/detail/?ordering="+b+"&name="+A.j(J.aQ(a,"name")),0,null)),$async$Z7)
+return A.R(A.o0(A.d_("https://boolean-boos.onrender.com/items/detail/?ordering="+b+"&name="+A.j(J.aQ(a,"name")),0,null)),$async$Z7)
 case 2:q=d
 p=q.b
 if(p===200)$.azm=J.aQ(B.aF.c8(0,A.ib(A.i5(q.e).c.a.h(0,"charset")).c8(0,q.w)),"stores_with_item")
@@ -28015,7 +28015,7 @@ return a.charCodeAt(r)===47},
 a8Y(a){return A.aNC(a)},
 aNC(a){var s=0,r=A.P(t.yp),q,p=2,o,n,m,l,k,j,i,h
 var $async$a8Y=A.Q(function(b,c){if(b===1){o=c
-s=p}while(true)switch(s){case 0:i="http://127.0.0.1:8000/accounts/autocomplete/"
+s=p}while(true)switch(s){case 0:i="https://boolean-boos.onrender.com/accounts/autocomplete/"
 p=4
 s=7
 return A.R(A.o0(A.d_(A.j(i)+"?input="+a,0,null)),$async$a8Y)
@@ -87783,7 +87783,7 @@ this.zd()},
 zd(){var s=0,r=A.P(t.z),q=this,p,o
 var $async$zd=A.Q(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:s=2
-return A.R(A.o0(A.d_("http://127.0.0.1:8000/items/",0,null)),$async$zd)
+return A.R(A.o0(A.d_("https://boolean-boos.onrender.com/items/",0,null)),$async$zd)
 case 2:p=b
 o=p.b
 if(o===200)q.a7(new A.anx(q,p))
@@ -87814,7 +87814,7 @@ while(true)switch(s){case 0:o=q.a
 n=o.d.a.a
 o.e=n
 s=2
-return A.R(A.o0(A.d_("http://127.0.0.1:8000/items/?ordering=price&name="+n,0,null)),$async$$0)
+return A.R(A.o0(A.d_("https://boolean-boos.onrender.com/items/?ordering=price&name="+n,0,null)),$async$$0)
 case 2:p=b
 n=p.b
 if(n===200){n=J.aQ(B.aF.c8(0,A.ib(A.i5(p.e).c.a.h(0,"charset")).c8(0,p.w)),"results")
@@ -87857,7 +87857,7 @@ wp(a){return this.a2o(a)},
 a2o(a){var s=0,r=A.P(t.H),q=this,p,o,n,m
 var $async$wp=A.Q(function(b,c){if(b===1)return A.M(c,r)
 while(true)switch(s){case 0:p={}
-o=A.d_("http://127.0.0.1:8000/accounts/login/",0,null)
+o=A.d_("https://boolean-boos.onrender.com/accounts/login/",0,null)
 n=t.N
 m=A.av(["Content-Type","application/json"],n,n)
 s=2
@@ -87919,7 +87919,7 @@ p5(a){return this.abx(a)},
 abx(a){var s=0,r=A.P(t.H),q=this,p,o
 var $async$p5=A.Q(function(b,c){if(b===1)return A.M(c,r)
 while(true)switch(s){case 0:s=2
-return A.R(A.o0(A.d_("http://127.0.0.1:8000/items/?ordering="+a+"&name="+q.d,0,null)),$async$p5)
+return A.R(A.o0(A.d_("https://boolean-boos.onrender.com/items/?ordering="+a+"&name="+q.d,0,null)),$async$p5)
 case 2:p=c
 o=p.b
 if(o===200)q.a7(new A.ar0(q,B.aF.c8(0,A.ib(A.i5(p.e).c.a.h(0,"charset")).c8(0,p.w))))
@@ -88185,7 +88185,7 @@ case 2:o=b
 n=J.ay(o)
 m=t.N
 s=3
-return A.R(A.azu(A.d_("http://127.0.0.1:8000/accounts/signup/",0,null),A.av(["name",q.d.a.a,"email",q.f.a.a,"username",q.e.a.a,"password",q.r.a.a,"confirm_password",q.w.a.a,"address",p.a.a,"longitude",J.eg(n.h(o,"longitude")),"latitude",J.eg(n.h(o,"latitude"))],m,m),null),$async$t5)
+return A.R(A.azu(A.d_("https://boolean-boos.onrender.com/accounts/signup/",0,null),A.av(["name",q.d.a.a,"email",q.f.a.a,"username",q.e.a.a,"password",q.r.a.a,"confirm_password",q.w.a.a,"address",p.a.a,"longitude",J.eg(n.h(o,"longitude")),"latitude",J.eg(n.h(o,"latitude"))],m,m),null),$async$t5)
 case 3:l=b
 if(l.b===201){p=q.c
 p.toString
@@ -88333,7 +88333,7 @@ zf(){var s=0,r=A.P(t.H),q=1,p,o=[],n=this,m,l,k,j,i,h
 var $async$zf=A.Q(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
 s=6
-return A.R(A.o0(A.d_("http://127.0.0.1:8000/accounts/info/",0,null)),$async$zf)
+return A.R(A.o0(A.d_("https://boolean-boos.onrender.com/accounts/info/",0,null)),$async$zf)
 case 6:m=b
 if(m.b===200){j=m
 l=B.aF.c8(0,A.ib(A.i5(j.e).c.a.h(0,"charset")).c8(0,j.w))
@@ -88548,7 +88548,7 @@ s=5
 break
 case 7:p=q.a
 s=8
-return A.R(A.azu(A.d_("http://127.0.0.1:8000/accounts/logout/",0,null),null,null),$async$$1)
+return A.R(A.azu(A.d_("https://boolean-boos.onrender.com/accounts/logout/",0,null),null,null),$async$$1)
 case 8:if(c.b===200)A.axK(p,A.KO(new A.aaE(),null,t.z))
 else{p=p.ah(t.Pu)
 p.toString
@@ -88672,7 +88672,7 @@ this.wE()},
 wE(){var s=0,r=A.P(t.H),q=this,p
 var $async$wE=A.Q(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:s=2
-return A.R(A.o0(A.d_("http://127.0.0.1:8000/shoppingcart/view/",0,null)),$async$wE)
+return A.R(A.o0(A.d_("https://boolean-boos.onrender.com/shoppingcart/view/",0,null)),$async$wE)
 case 2:p=b
 if(p.b===200)q.a7(new A.arB(q,B.aF.c8(0,A.ib(A.i5(p.e).c.a.h(0,"charset")).c8(0,p.w))))
 return A.N(null,r)}})
@@ -88682,7 +88682,7 @@ var $async$y_=A.Q(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:p=q.d
 o=A.ac(p).i("ab<1,aH<n,K>>")
 n=A.ai(new A.ab(p,new A.arE(),o),!0,o.i("b7.E"))
-o=A.d_("http://127.0.0.1:8000/shoppingcart/update/",0,null)
+o=A.d_("https://boolean-boos.onrender.com/shoppingcart/update/",0,null)
 p=t.N
 p=A.av(["Content-Type","application/json; charset=UTF-8"],p,p)
 s=2
@@ -88695,7 +88695,7 @@ a4g(a){var s=0,r=A.P(t.H),q=this,p
 var $async$wy=A.Q(function(b,c){if(b===1)return A.M(c,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return A.R(A.aHE(A.d_("http://127.0.0.1:8000/shoppingcart/delete/"+a+"/",0,null),A.av(["Content-Type","application/json; charset=UTF-8"],p,p)),$async$wy)
+return A.R(A.aHE(A.d_("https://boolean-boos.onrender.com/shoppingcart/delete/"+a+"/",0,null),A.av(["Content-Type","application/json; charset=UTF-8"],p,p)),$async$wy)
 case 2:if(c.b===200)q.a7(new A.arz(q,a))
 return A.N(null,r)}})
 return A.O($async$wy,r)},
